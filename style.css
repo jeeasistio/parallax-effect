@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(140deg, #f9fbe7, #bbdefb);
+  position: relative;
+  z-index: -1;
+}
+
+.iceberg {
+  position: absolute;
+  right: -25%;
+  bottom: 0;
+  width: 80%;
+}
+
+.penguin-container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#f9fbe7, #bbdefb);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.save {
+  font: 30px Montserrat, sans-serif;
+}
+
+.penguin {
+  width: 20%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+.bird {
+  width: 20%;
+  position: absolute;
+  top: 5%;
+  left: 45%;
+  z-index: -1;
+}
+
+.intro h1,
+.intro pre {
+  margin: 15px 50px;
+  font-family: Montserrat, sans-serif;
+}
